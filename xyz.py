@@ -40,7 +40,7 @@ import streamlit as st
 st.write("""
   # My Web Application
   ## This app was created by me!
-  このアプリケーションは機械学習のについて学ぶ際、チュートリアルとして
+  このアプリケーションは機械学習について学ぶ際、チュートリアルとして
   よく用いられるタイタニック号における生存率の予想問題を扱ったものです。
     """)
 
