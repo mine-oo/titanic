@@ -54,7 +54,7 @@ if submit == True:
 #Survival Probability Prediction
 st.write('次に示すのは、タイタニック号における乗客の乗船料と生存率の関係を')
 st.write('機械学習モデルに学習させ、予測モデルを構築したものになります')
-st.subheader('Survival Probability')
+st.subheader('生存率の予測:')
 
 #input
 minValue = int(np.floor(train['Fare'].min()))
