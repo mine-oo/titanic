@@ -60,7 +60,7 @@ st.subheader('生存率の予測:')
 minValue = int(np.floor(train['Fare'].min()))
 maxValue = int(np.floor(train['Fare'].max()))
 startValue = int((maxValue+minValue)/2)
-fareVlue = st.slider('please_select fare', min_value=minValue, max_value=maxValue,
+fareVlue = st.slider('料金を指定してください', min_value=minValue, max_value=maxValue,
 step=1, value=startValue)
 
 fareVlue_df = pd.DataFrame([fareVlue], columns=['Fare'])
